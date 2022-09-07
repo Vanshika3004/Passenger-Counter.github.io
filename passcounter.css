@@ -1,0 +1,31 @@
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    margin-top: 35px;
+}
+h2{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.7rem;
+}  
+button{
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 15%;
+    /* border-radius: 20px; */
+    position: relative;
+    
+}
+#increment-btn{
+    background-color: rgb(241, 60, 60);
+}
+#save-btn{
+    background-color: rgb(64, 221, 64);
+}
